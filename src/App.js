@@ -20,7 +20,7 @@ useEffect(()=>{
   getData();
   setAlert('');
   setQuery('')
-},[query]);
+},[recipes]);
 
 
 const getData = async()=>{
